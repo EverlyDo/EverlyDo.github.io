@@ -22,15 +22,67 @@
       }
     ]
   },
+  "education": [
+    {
+      "institution": "Dongseo University",
+      "location": "Busan, Korea",
+      "url": "https://www.dongseo.ac.kr/",
+      "pdf": "",
+      "area": "",
+      "studyType": "B.A. in Broadcasting and Media; B.E. in Software",
+      "startDate": "2018-02-01",
+      "endDate": "2022-08-01",
+      "score": "",
+      "courses":"GPA 4.0/4.5"
+    },
+    {
+      "institution": "Fort Hays State University",
+      "location": "Hays, Kansas, U.S.",
+      "url": "https://www.fhsu.edu/",
+      "pdf": "",
+      "area": "",
+      "studyType": "Exchange Student",
+      "startDate": "2020-01-01",
+      "endDate": "2020-05-01",
+      "score": "",
+      "courses":["Computer Science II", "Data Structures", "Upper-intermediate Integrated English"]
+    }
+  ],
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "CJ Foods & Schwan's Company",
+      "position": "IT Support Intern",
+      "url": "https://www.schwanscompany.com/",
+      "pdf":"Employment_CJ.pdf",
+      "dateRanges": [
+        {
+          "startDate": "2023-12-01",
+          "endDate": "2023-01-01"
+        }
+      ],
+      "summary": "",
+      "highlights": ["Enhanced user satisfaction through comprehensive laptop support", 
+      "Improved network reliability, facilitated communication between users and technical teams", 
+      "Assisted in managing IT and network inventories, all contributing to operational efficiency."]
+    },
+    {
+      "name": "Korea Broadcasting System, Busan Branch",
+      "position": "Video Production Intern",
+      "url": "https://local.kbs.co.kr/",
+      "pdf":"",
+      "dateRanges": [
+        {
+          "startDate": "2020-12-01",
+          "endDate": "2021-01-01"
+        },
+        {
+          "startDate": "2021-03-01",
+          "endDate": "2021-06-01"
+        }
+      ],
+      "summary": "",
+      "highlights": ["Collaborated with reporters and journalists to create visually captivating materials for the bukebukae YouTube channel (now part of the <a href='https://www.youtube.com/@KBSnewsBUSAN/search?query=%EB%B6%80%EC%BC%80%EB%B6%80%EC%BA%90' target='_blank'>KBS News Busan channel</a>.).",
+    "Produced <a href='https://www.youtube.com/watch?v=dT82MyJ1JVo' target='_blank'>three</a> other videos that aired in the news three times, receiving positive reactions 🎉."]
     }
   ],
   "volunteer": [
@@ -45,19 +97,6 @@
       "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
     }
   ],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
   "awards": [
     {
       "title": "Nobel Prize in Physics",
@@ -69,83 +108,93 @@
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "Technical Support Fundamentals",
+      "date": "2023-06-01",
+      "issuer": "Google",
+      "file":"TSF.jpg",
+      "fileType": "img",
+      "icon": "fa-solid fa-clipboard-check"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Information Processing Engineer",
+      "date": "2022-11-01",
+      "issuer": "Human Resources Development Service of Korea",
+      "file": "IPE.pdf",
+      "fileType": "pdf",
       "icon": "fa-solid fa-tag"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "name": "Network Administrator Level2",
+      "date": "2022-10-18",
+      "issuer": "Information & Communication Qualification Association of Korea",
+      "file": "Network2.pdf",
+      "fileType": "pdf",
+      "icon": "fa-solid fa-clipboard-check"
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
+      "name": "CAD Level2",
+      "date": "2022-10-01",
+      "issuer": "Korea Productivity Center",
+      "file": "CAD.pdf",
+      "fileType": "pdf",
+      "icon": "fa-solid fa-tag"
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
+      "name": "Graphic Technology Qualification",
+      "date": "2022-09-16",
+      "issuer": "Korea Productivity Center",
+      "file": "GTQ.pdf",
+      "fileType": "pdf",
+      "icon": "fa-solid fa-clipboard-check"
     },
     {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Information Technology Qualification",
+      "date": "2022-07-28",
+      "issuer": "Korea Productivity Center",
+      "file": "ITQ.pdf",
+      "fileType": "pdf",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "International Computer Driving License",
+      "date": "2022-07-01",
+      "issuer": "Korea Productivity Center",
+      "file": "ICDL.pdf",
+      "fileType": "pdf",
       "icon": "fa-solid fa-clipboard-check"
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "A Study on the Improvement of Test-Retest reliability of EEG Using Deep Convolutional Neural Network",
+      "publisher": "Haeseon Do and Changhee Han",
+      "releaseDate": "2022-06-22",
+      "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11108347",
+      "summary": "Proceedings of the <a href='https://www.kics.or.kr/' target='_blank'>Korean Institute of Communications and Information Sciences (KICS)</a>, pp. 1500-1501. Supervised by Changhee Han"
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
+      "name": "Program Languages",
+      "level": "",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python",
+        "Java",
+        "R",
+        "HTML/CSS/JS",
+        "SQL",
+        "MATLAB"
+      ]
+    },
+    {
+      "name": "Software",
+      "level": "",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Adobe Photoshop",
+        "Adobe Premiere Pro",
+        "Adobe After Effects"
       ]
     }
   ],
@@ -189,12 +238,74 @@
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Bibigo Website Improvement Proposal",
+      "summary": "Researcher (Supervised by JooHyun Kwon)",
+      "highlights": ["Proposed improvements for user registration and purchase flows on Bibigo's website based on benchmarking analysis of competitor platforms and current industry trends.", 
+      "Recommended streamlined purchase processes, revised user registration prompts, and suggested fixes for product search errors after evaluating APIs and prototypes.",
+      "Proposed personalized content strategies, such as tailored product or recipe recommendations in welcome emails, to increase user engagement based on competitor analysis."],
+      "startDate": "2023-02-01",
+      "endDate": "2023-06-01",
+      "pdf":"BibigoUSA_ppt.pdf",
+      "url": ""
+    },
+    {
+      "name": "Course Break Friend Matching App",
+      "summary": "Front-End Developer, Back-End Assistant",
+      "highlights": ["Spearheaded the planning and ideation of an Android app to enhance social interaction among university students during the pandemic. ", 
+      "Collaborated with a team member to develop a matching system that paired students based on similar schedules, utilizing React Native, PHP, and MySQL."],
+      "startDate": "2022-03-01",
+      "endDate": "2022-06-01",
+      "pdf":"CBFM_ppt.pdf",
+      "url": ""
+    },
+    {
+      "name": "UCLA Admissions Data Analysis",
+      "summary": "Researcher",
+      "highlights": ["Analyzed UCLA admissions data using classification models (Random Forest, SVM, k-NN, Decision Tree) in R to assess trends in admission decisions and model performance through confusion matrices."],
+      "startDate": "2021-12-01",
+      "endDate": "2021-12-01",
+      "pdf":"",
+      "url": "https://github.com/Haeseonnn/dataanalysis/"
+    },
+    {
+      "name": "Weather-Focused Social Networking Service",
+      "summary": "Group Leader, Front-End Developer",
+      "highlights": ["Led the ideation and theme selection for an app enabling users to share daily experiences based on weather conditions.", 
+      "Executed comprehensive modeling processes, including system configuration and entity analysis, utilizing ERD creation for the MySQL database design, while developing the front-end interface using React."],
+      "startDate": "2021-09-01",
+      "endDate": "2021-12-01",
+      "pdf":"WBSNS_report.pdf",
+      "url": ""
+    },
+    {
+      "name": "Volunteer Matchmaking Website",
+      "summary": "Group Leader, Front-End Developer, Database Developer",
+      "highlights": ["Built a volunteer matchmaking website connecting college students with organizations in Busan, using HTML, CSS, JavaScript, and MySQL."],
+      "startDate": "2021-09-01",
+      "endDate": "2021-12-01",
+      "pdf":"",
+      "url": ""
+    },
+
+    {
+      "name": "Dear Me: A Self-Affirmation Journey",
+      "summary": "Production Coordinator, Editor",
+      "highlights": ["Conceptualized and coordinated the 'Mirror Project', addressing societal issues faced by youth experiencing depression and anxiety while promoting self-affirmation for those generous to others but harsh on themselves."
+      ,"Oversaw shooting processes and ensured effective narrative delivery by researching relevant references, strategically selecting subtitles, and editing video content to enhance audience comprehension."],
+      "startDate": "2021-04-01",
+      "endDate": "2021-08-01",
+      "pdf":"",
+      "url": "https://portal.moca.or.kr/dear-me/"
+    },
+    {
+      "name": "Buk-gu Recipes: Enjoying Local Flavors from Home",
+      "summary": "Content Creator, Writer",
+      "highlights": ["Explored and selected engaging concepts to promote Buk-gu in Busan, enhancing community engagement through the production of a lifestyle video featuring ‘Gupo Noodles’ and ‘Bulgur Latte.’"
+    ,"Strengthened storytelling skills through content planning, scriptwriting, and narrative organization in a simulated professional media environment."],
+      "startDate": "2020-09-01",
+      "endDate": "2020-12-01",
+      "pdf":"",
+      "url": "https://portal.moca.or.kr/%eb%b6%81%ea%b5%ac-%eb%b0%a9%ea%b5%ac%ec%84%9d-%eb%a0%88%ec%8b%9c%ed%94%bc/"
     }
   ]
 }
